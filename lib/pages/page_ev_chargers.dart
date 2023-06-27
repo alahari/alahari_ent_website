@@ -18,17 +18,87 @@ class EVChargersPage extends StatelessWidget {
             child: Container(
               margin: const EdgeInsets.symmetric(horizontal: 32),
               child: Column(
-                children:  <Widget>[
+                children: <Widget>[
                   MenuBar(),
+                  const Text(
+                    'DC FAST Charger 60 KW',
+                    textAlign: TextAlign.start,
+                    style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.w900,
+                      color: Colors.green,
 
-                  DataTable(columns: [
-                    DataColumn(
-                      label: Text("Name"),
+                      // Add any other desired styles
                     ),
-                    DataColumn(
-                      label: Text("Age"),
+                  ),
+
+                  Image.asset('assets/images/dc_60.png'),
+                  const Text(
+                    'DC FAST Charger 30 KW',
+                    textAlign: TextAlign.start,
+                    style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.w900,
+                      color: Colors.green,
+
+                      // Add any other desired styles
                     ),
-                  ], rows: [])
+                  ),
+                  const SizedBox(
+                    height: 30,
+                  ),
+
+                  Image.asset('assets/images/dc_30.png'),
+
+                  const SizedBox(
+                    height: 40,
+                  ),
+
+                  const Text(
+                    'AC Charger 7 KW',
+                    textAlign: TextAlign.start,
+                    style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.w900,
+                      color: Colors.green,
+
+                      // Add any other desired styles
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 30,
+                  ),
+
+                  Image.asset('assets/images/ac_7.png'),
+
+                  const SizedBox(
+                    height: 30,
+                  ),
+
+                  const Text(
+                    '2/3 wheeler Charger 9.9 KW',
+                    textAlign: TextAlign.start,
+                    style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.w900,
+                      color: Colors.green,
+
+                      // Add any other desired styles
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 30,
+                  ),
+
+                  Image.asset('assets/images/9.9.png'),
+
+                   const SizedBox(
+                    height: 30,
+                  ),
+
+                 Text('For more Details refer Efill website : https://efillelectric.com/')
+            
+
 
                   // divider,
                 ],

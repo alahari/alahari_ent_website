@@ -26,8 +26,8 @@ class ContactPage extends StatelessWidget {
                           width: 80,
                           height: 80,
                           decoration: BoxDecoration(
-                        shape: BoxShape.rectangle,
-                        // Adjust the radius to achieve an oval shape
+                            shape: BoxShape.rectangle,
+                            // Adjust the radius to achieve an oval shape
                           ),
                           child: Image.asset('assets/images/venki1.jpeg'),
                         ),
@@ -47,7 +47,7 @@ class ContactPage extends StatelessWidget {
                       ),
                     ),
                   ),
-                   Expanded(
+                  Expanded(
                     child: ListTile(
                       leading: Transform.scale(
                         scale: 3,
@@ -55,8 +55,8 @@ class ContactPage extends StatelessWidget {
                           width: 80,
                           height: 80,
                           decoration: BoxDecoration(
-                        shape: BoxShape.rectangle,
-                        // Adjust the radius to achieve an oval shape
+                            shape: BoxShape.rectangle,
+                            // Adjust the radius to achieve an oval shape
                           ),
                           child: Image.asset('assets/images/leela1.jpeg'),
                         ),
@@ -75,16 +75,15 @@ class ContactPage extends StatelessWidget {
                         child: Text('Director'),
                       ),
                     ),
-                  ),  
+                  ),
                 ],
               ),
 
-              
               const SizedBox(
                 height: 150,
               ),
 
-                Row(
+              Row(
                 children: [
                   Expanded(
                     child: ListTile(
@@ -94,8 +93,8 @@ class ContactPage extends StatelessWidget {
                           width: 80,
                           height: 80,
                           decoration: BoxDecoration(
-                        shape: BoxShape.rectangle,
-                        // Adjust the radius to achieve an oval shape
+                            shape: BoxShape.rectangle,
+                            // Adjust the radius to achieve an oval shape
                           ),
                           child: Image.asset('assets/images/sunil_garu.jpeg'),
                         ),
@@ -115,41 +114,38 @@ class ContactPage extends StatelessWidget {
                       ),
                     ),
                   ),
-                   Expanded(
+                  Expanded(
                     child: ListTile(
                       leading: Transform.scale(
                         scale: 3,
                         child: Container(
                           width: 80,
                           height: 80,
-                          decoration: BoxDecoration(
-                        shape: BoxShape.rectangle,
-                        // Adjust the radius to achieve an oval shape
+                          decoration: const BoxDecoration(
+                            shape: BoxShape.rectangle,
+                            // Adjust the radius to achieve an oval shape
                           ),
-                          child: Image.asset('assets/images/leela1.jpeg'),
+                          child: Image.asset('assets/images/rajesh.jpeg'),
                         ),
                       ),
-                      title: Padding(
-                        padding: const EdgeInsets.all(15.0),
-                        child: const Text(
-                          'Leelavathi Alahari',
+                      title: const Padding(
+                        padding: EdgeInsets.all(15.0),
+                        child: Text(
+                          'Rajesh Rapuru',
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                           ),
                         ),
                       ),
-                      subtitle: Padding(
-                        padding: const EdgeInsets.all(15.0),
-                        child: Text('Director'),
+                      subtitle: const Padding(
+                        padding: EdgeInsets.all(15.0),
+                        child: Text('Technical Architect'),
                       ),
                     ),
-                  ),  
+                  ),
                 ],
               ),
 
-              
-              
-             
               //  const Footer()
               // Footer
               SizedBox(

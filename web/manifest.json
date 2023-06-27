@@ -1,11 +1,11 @@
 {
-    "name": "Minimal",
-    "short_name": "Minimal",
+    "name": "Alahari Enterprises",
+    "short_name": "Alahari Enterprises",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#FFFFFF",
-    "description": "A minimalistic Flutter website template for blogs and portfolios.",
+    "description": "Sustainable and environmentally-friendly energy solutions.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
