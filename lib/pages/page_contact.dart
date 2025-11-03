@@ -125,13 +125,13 @@ class ContactPage extends StatelessWidget {
                             shape: BoxShape.rectangle,
                             // Adjust the radius to achieve an oval shape
                           ),
-                          child: Image.asset('assets/images/rajesh.jpeg'),
+                          child: Image.asset('assets/images/sasank.jpeg'),
                         ),
                       ),
                       title: const Padding(
                         padding: EdgeInsets.all(15.0),
                         child: Text(
-                          'Rajesh Rapuru',
+                          'sasank',
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                           ),
@@ -139,7 +139,7 @@ class ContactPage extends StatelessWidget {
                       ),
                       subtitle: const Padding(
                         padding: EdgeInsets.all(15.0),
-                        child: Text('Technical Architect'),
+                        child: Text('software graduate'),
                       ),
                     ),
                   ),
